@@ -1,1 +1,2 @@
-# SCT_ML_2
+#KMEANS CLUSTERING
+The Python script begins by loading a dataset from a CSV file and extracting relevant features related to customer behavior. These features are standardized to ensure they contribute equally to the clustering process. K-Means clustering is then applied to group customers into four distinct clusters. To visualize these clusters in a two-dimensional space, t-SNE is used to reduce the data's dimensionality. The results are plotted with different colors representing each cluster, allowing for a clear view of customer segments. The plot includes a colorbar and legend for easy interpretation. Finally, the script outputs the DataFrame with the assigned cluster labels, providing a complete view of the clustering results.
